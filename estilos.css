@@ -1,8 +1,8 @@
 :root{
-    --color-primario:#dba7d9;
-    --color-seccundario:#ffff;
+    --color-primario:#ca95c8;
+    --color-secundario:#ffff;
     --color-acento:#ff009d;
-    --color-texto:#00000033;
+    --color-texto:#000000;
     --color-fondo-suave:f4f7f6;
     --transition: all 0.3s ease;
 
@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--color-seccundario);
+    background-color: var(--color-secundario);
 
 }
 header{
@@ -42,7 +42,7 @@ nav ul{
     gap: 30px;
 }
 nav ul li a{
-    color: var(--color-seccundario);
+    color: var(--color-secundario);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
